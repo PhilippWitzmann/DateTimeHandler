@@ -1,0 +1,30 @@
+{
+    "name": "philippwitzmann/date-time-handler",
+    "description": "Date and Time Framework",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Philipp Witzmann",
+            "email": "philipp@philippwitzmann.de"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "~1.36.0"
+    },
+    "require-dev": {
+        "php": ">=7.2",
+        "mockery/mockery": "^1.1",
+        "philippwitzmann/codingstandard": "^3.0",
+        "philippwitzmann/testing": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "PhilippWitzmann\\DateTime\\": [
+                "src/",
+                "tests/"
+            ]
+        }
+    },
+    "version": "1.2"
+}
