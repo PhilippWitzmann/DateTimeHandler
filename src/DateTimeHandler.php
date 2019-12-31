@@ -117,7 +117,7 @@ class DateTimeHandler
     {
         $datetimeApi = $this->testDateTimeApi;
 
-        if (!$useTestApi || $this->testDateTimeApi !== null)
+        if (!$useTestApi || $this->testDateTimeApi === null)
         {
             $date     = $dateTime->getDate();
             $time     = $dateTime->getTime();
